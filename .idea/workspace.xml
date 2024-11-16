@@ -1,32 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="305d609d-f559-45db-8339-230bc9276f6f" name="Changes" comment="" />
+    <list default="true" id="305d609d-f559-45db-8339-230bc9276f6f" name="Changes" comment="codici per analisi preliminare e pulizia dei dati AREU">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bruno-arena&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LGpolimi/bachelor_thesis_TEMP_O3_CVD.git&quot;,
+    &quot;accountId&quot;: &quot;67b654d5-32f4-441f-8905-2debff0664da&quot;
+  }
+}</component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="savedDocuments">
+              <list>
+                <AnonymousApexSavedDocument>
+                  <option name="name" value="Anonymous Apex 1" />
+                </AnonymousApexSavedDocument>
+              </list>
+            </option>
+          </AnonymousApexSettings>
+        </option>
+        <option name="soqlQuerySettings">
+          <SoqlQuerySettings>
+            <option name="savedDocuments">
+              <list>
+                <SoqlQuerySavedDocument>
+                  <option name="name" value="SOQL Query 1" />
+                </SoqlQuerySavedDocument>
+              </list>
+            </option>
+          </SoqlQuerySettings>
+        </option>
+      </ProjectWorkspaceSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2ol2wyx3aS0TTcveM0GvyBnQNvf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Lettura_df_completo_CAMS_Temp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.analisi_dati_areu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conversione_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.creazione_df_TEMPERATURA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dati_ozon.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lettura_df_temperature.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prova_dati_AREU.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pulizia_df_AREU.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pulizia_df_AREU_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pulizia_df_AREU_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pulizia_df_temperatura.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.unione_df_AREU.executor&quot;: &quot;Run&quot;,
+    &quot;Python.unione_df_ozono.executor&quot;: &quot;Run&quot;,
+    &quot;Python.unione_df_temperature.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bruno/PycharmProjects/progetto_info_def&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bruno\PycharmProjects\progetto_info_def" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bruno\AppData\Roaming\JetBrains\PyCharm2024.2\scratches" />
+      <recent name="C:\Users\bruno\PycharmProjects\progetto_info_def" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,11 +131,91 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731430083572</updated>
-      <workItem from="1731430084920" duration="12000" />
+      <workItem from="1731430084920" duration="252000" />
+      <workItem from="1731509212760" duration="820000" />
+      <workItem from="1731511256400" duration="7075000" />
+      <workItem from="1731518764467" duration="10000" />
+      <workItem from="1731531676656" duration="4166000" />
+      <workItem from="1731578113588" duration="2458000" />
+      <workItem from="1731580597206" duration="924000" />
+      <workItem from="1731590304715" duration="392000" />
+      <workItem from="1731592527909" duration="178000" />
+      <workItem from="1731617250431" duration="925000" />
+      <workItem from="1731620957089" duration="1368000" />
+      <workItem from="1731666463841" duration="2012000" />
+      <workItem from="1731675942013" duration="4269000" />
+      <workItem from="1731685422344" duration="1535000" />
+      <workItem from="1731769562600" duration="11000" />
+      <workItem from="1731778682586" duration="1897000" />
+      <workItem from="1731780736334" duration="5000" />
+      <workItem from="1731787104041" duration="2531000" />
+      <workItem from="1731790573668" duration="374000" />
     </task>
+    <task id="LOCAL-00001" summary="prova">
+      <option name="closed" value="true" />
+      <created>1731430298166</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731430298166</updated>
+    </task>
+    <task id="LOCAL-00002" summary="codici per analisi preliminare e pulizia dei dati AREU">
+      <option name="closed" value="true" />
+      <created>1731590604867</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731590604867</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="prova" />
+    <MESSAGE value="codici per analisi preliminare e pulizia dei dati AREU" />
+    <option name="LAST_COMMIT_MESSAGE" value="codici per analisi preliminare e pulizia dei dati AREU" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/progetto_info_def$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1731686308768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$pulizia_df_AREU.coverage" NAME="pulizia_df_AREU Coverage Results" MODIFIED="1731579534919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$unione_df_ozono.coverage" NAME="unione_df_ozono Coverage Results" MODIFIED="1731685954832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$prova_dati_AREU.coverage" NAME="prova_dati_AREU Coverage Results" MODIFIED="1731517573672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$unione_df_temperature.coverage" NAME="unione_df_temperature Coverage Results" MODIFIED="1731677241583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$conversione_csv.coverage" NAME="conversione_csv Coverage Results" MODIFIED="1731621889639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$pulizia_df_AREU_1.coverage" NAME="pulizia_df_AREU_1 Coverage Results" MODIFIED="1731580782309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$dati_ozon.coverage" NAME="dati_ozon Coverage Results" MODIFIED="1731668248087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$lettura_df_temperature.coverage" NAME="lettura_df_temperature Coverage Results" MODIFIED="1731677111583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$Lettura_df_completo_CAMS_Temp.coverage" NAME="Lettura_df_completo_CAMS_Temp Coverage Results" MODIFIED="1731678591972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$analisi_dati_areu.coverage" NAME="analisi_dati_areu Coverage Results" MODIFIED="1731581452856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$pulizia_df_AREU_3.coverage" NAME="pulizia_df_AREU_3 Coverage Results" MODIFIED="1731787961149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$pulizia_df_temperatura.coverage" NAME="pulizia_df_temperatura Coverage Results" MODIFIED="1731667428073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$unione_df_AREU.coverage" NAME="unione_df_AREU Coverage Results" MODIFIED="1731789306788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$creazione_df_TEMPERATURA.coverage" NAME="creazione_df_TEMPERATURA Coverage Results" MODIFIED="1731676835107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
 </project>
