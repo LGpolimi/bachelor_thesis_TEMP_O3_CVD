@@ -40,10 +40,9 @@ for file_name in os.listdir(input_path):
             #filtro le righe che contengono le parole chiave
             df = df[df['MOTIVO_DTL'].apply(lambda x: any(keyword.lower() in str(x) for keyword in keywords))]
 
-        #seleziona solo le colonne che ci servono
+        #seleziono solo le colonne che ci servono
         df_filtered = df[[col for col in columns_to_keep if col in df.columns]]
 
-        #aggiungo il dataframe filtrato alla lista
         dataframes.append(df_filtered)
 
 #unisco tutti i dataframe filtrati
@@ -64,6 +63,18 @@ if dataframes:
             format='%d%m%Y',
             errors='coerce'  # Ignora valori non validi e li imposta come NaT
         )
+
+    #elimina righe duplicate per lo stesso paziente nello stesso giorno
+    if 'ID_PZ' in final_dataframe.columns and 'DATA' in final_dataframe.columns:
+        final_dataframe = final_dataframe.drop_duplicates(subset=['ID_PZ', 'DATA'])
+
+    #riempio i valori mancanti nella colonna 'ETA' con la media delle età
+    if 'ETA' in final_dataframe.columns:
+        # Converte la colonna ETA in numerico per calcolare la media
+        final_dataframe['ETA'] = pd.to_numeric(final_dataframe['ETA'], errors='coerce')
+        media_eta = final_dataframe['ETA'].mean(skipna=True)
+        final_dataframe['ETA'] = final_dataframe['ETA'].fillna(media_eta)
+        print(media_eta)
 
     #salvo il dataframe finale in formato .csv nella cartella di output
     final_output_path = os.path.join(output_path, 'dati_uniti.csv')
