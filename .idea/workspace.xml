@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="305d609d-f559-45db-8339-230bc9276f6f" name="Changes" comment="codice per adattare i dati CAMS alle griglie geografiche">
+    <list default="true" id="305d609d-f559-45db-8339-230bc9276f6f" name="Changes" comment="codici per analisi preliminare e pulizia dei dati AREU">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,21 +75,12 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python.Lettura_df_completo_CAMS_Temp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.adattamento alle griglie.executor&quot;: &quot;Run&quot;,
-    &quot;Python.adattamento_dati_AREU_griglie.executor&quot;: &quot;Run&quot;,
-    &quot;Python.adattamento_dati_griglie.executor&quot;: &quot;Run&quot;,
     &quot;Python.analisi_dati_areu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bozza_adattamento_dati_AREU_griglie.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conversione_coordinate.executor&quot;: &quot;Run&quot;,
     &quot;Python.conversione_csv.executor&quot;: &quot;Run&quot;,
     &quot;Python.creazione_df_TEMPERATURA.executor&quot;: &quot;Run&quot;,
     &quot;Python.dati_ozon.executor&quot;: &quot;Run&quot;,
-    &quot;Python.df_AREU.executor&quot;: &quot;Run&quot;,
-    &quot;Python.df_CAMS_ozono.executor&quot;: &quot;Run&quot;,
     &quot;Python.lettura_df_temperature.executor&quot;: &quot;Run&quot;,
     &quot;Python.prova_dati_AREU.executor&quot;: &quot;Run&quot;,
-    &quot;Python.prova_qgis_areu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.prove_dati_areu.executor&quot;: &quot;Run&quot;,
     &quot;Python.pulizia_df_AREU.executor&quot;: &quot;Run&quot;,
     &quot;Python.pulizia_df_AREU_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.pulizia_df_AREU_3.executor&quot;: &quot;Run&quot;,
@@ -97,7 +89,6 @@
     &quot;Python.unione_df_AREU.executor&quot;: &quot;Run&quot;,
     &quot;Python.unione_df_ozono.executor&quot;: &quot;Run&quot;,
     &quot;Python.unione_df_temperature.executor&quot;: &quot;Run&quot;,
-    &quot;Python.visualizza griglie.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
@@ -118,14 +109,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bruno\PycharmProjects\progetto_info_def" />
-      <recent name="C:\Users\bruno\AppData\Roaming\JetBrains\PyCharm2024.2\scratches" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\bruno\PycharmProjects\progetto_info_def" />
       <recent name="C:\Users\bruno\AppData\Roaming\JetBrains\PyCharm2024.2\scratches" />
-      <recent name="C:\Users\bruno\AppData\Roaming\JetBrains\PyCharm2024.2\scratches\scratch AREU" />
-      <recent name="C:\Users\bruno\AppData\Roaming\JetBrains\PyCharm2024.2\scratches\scratch temperature" />
-      <recent name="C:\Users\bruno\AppData\Roaming\JetBrains\PyCharm2024.2\scratches\scratch ozono" />
+      <recent name="C:\Users\bruno\PycharmProjects\progetto_info_def" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -162,35 +149,7 @@
       <workItem from="1731778682586" duration="1897000" />
       <workItem from="1731780736334" duration="5000" />
       <workItem from="1731787104041" duration="2531000" />
-      <workItem from="1731790573668" duration="1792000" />
-      <workItem from="1731793148837" duration="272000" />
-      <workItem from="1731840439411" duration="4333000" />
-      <workItem from="1731845829317" duration="1103000" />
-      <workItem from="1731846983969" duration="180000" />
-      <workItem from="1731847755579" duration="3000" />
-      <workItem from="1731850564964" duration="6000" />
-      <workItem from="1731859812038" duration="847000" />
-      <workItem from="1731861151031" duration="76000" />
-      <workItem from="1731861256235" duration="20000" />
-      <workItem from="1731864028583" duration="1225000" />
-      <workItem from="1731865578169" duration="395000" />
-      <workItem from="1731873148062" duration="906000" />
-      <workItem from="1731875259310" duration="592000" />
-      <workItem from="1731877557199" duration="289000" />
-      <workItem from="1731951377728" duration="33000" />
-      <workItem from="1731951439466" duration="447000" />
-      <workItem from="1731965989958" duration="1107000" />
-      <workItem from="1732011548911" duration="706000" />
-      <workItem from="1732022510205" duration="3175000" />
-      <workItem from="1732030346704" duration="657000" />
-      <workItem from="1732186357882" duration="859000" />
-      <workItem from="1732202624096" duration="944000" />
-      <workItem from="1732219146974" duration="2371000" />
-      <workItem from="1732279337556" duration="3715000" />
-      <workItem from="1732283572500" duration="509000" />
-      <workItem from="1732295924421" duration="530000" />
-      <workItem from="1732447967555" duration="4817000" />
-      <workItem from="1732526678220" duration="1027000" />
+      <workItem from="1731790573668" duration="374000" />
     </task>
     <task id="LOCAL-00001" summary="prova">
       <option name="closed" value="true" />
@@ -208,95 +167,7 @@
       <option name="project" value="LOCAL" />
       <updated>1731590604867</updated>
     </task>
-    <task id="LOCAL-00003" summary="codice per unione + pulizia dei dataframe AREU">
-      <option name="closed" value="true" />
-      <created>1731791747496</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1731791747496</updated>
-    </task>
-    <task id="LOCAL-00004" summary="codice per unione + pulizia dei dataframe AREU">
-      <option name="closed" value="true" />
-      <created>1731791952034</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1731791952034</updated>
-    </task>
-    <task id="LOCAL-00005" summary="codice per: unione + pulizia df AREU + conversione data in formato datetime">
-      <option name="closed" value="true" />
-      <created>1731844028058</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1731844028058</updated>
-    </task>
-    <task id="LOCAL-00006" summary="codice per l'unione dei df CAMS ozono">
-      <option name="closed" value="true" />
-      <created>1731846723060</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1731846723060</updated>
-    </task>
-    <task id="LOCAL-00007" summary="codice per elaborazione dati AREU">
-      <option name="closed" value="true" />
-      <created>1731847140981</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1731847140981</updated>
-    </task>
-    <task id="LOCAL-00008" summary="codice per elaborazione dati AREU">
-      <option name="closed" value="true" />
-      <created>1731860620350</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1731860620350</updated>
-    </task>
-    <task id="LOCAL-00009" summary="codice per elaborazione dati AREU">
-      <option name="closed" value="true" />
-      <created>1731864168957</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1731864168957</updated>
-    </task>
-    <task id="LOCAL-00010" summary="codice per elaborazione dati CAMS temperature">
-      <option name="closed" value="true" />
-      <created>1732012227287</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1732012227287</updated>
-    </task>
-    <task id="LOCAL-00011" summary="bozza di codice per adattare i dati CAMS alle griglie geografiche">
-      <option name="closed" value="true" />
-      <created>1732187200089</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1732187200089</updated>
-    </task>
-    <task id="LOCAL-00012" summary="codice per adattare i dati CAMS alle griglie geografiche">
-      <option name="closed" value="true" />
-      <created>1732479813627</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1732479813627</updated>
-    </task>
-    <task id="LOCAL-00013" summary="codice per adattare i dati CAMS alle griglie geografiche">
-      <option name="closed" value="true" />
-      <created>1732479959635</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1732479959635</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,39 +199,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="prova" />
     <MESSAGE value="codici per analisi preliminare e pulizia dei dati AREU" />
-    <MESSAGE value="codice per unione + pulizia dei dataframe AREU" />
-    <MESSAGE value="codice per: unione + pulizia df AREU + conversione data in formato datetime" />
-    <MESSAGE value="codice per l'unione dei df CAMS ozono" />
-    <MESSAGE value="codice per elaborazione dati AREU" />
-    <MESSAGE value="codice per elaborazione dati CAMS temperature" />
-    <MESSAGE value="bozza di codice per adattare i dati CAMS alle griglie geografiche" />
-    <MESSAGE value="codice per adattare i dati CAMS alle griglie geografiche" />
-    <option name="LAST_COMMIT_MESSAGE" value="codice per adattare i dati CAMS alle griglie geografiche" />
+    <option name="LAST_COMMIT_MESSAGE" value="codici per analisi preliminare e pulizia dei dati AREU" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/progetto_info_def$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1731686308768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$prove_dati_areu.coverage" NAME="prove_dati_areu Coverage Results" MODIFIED="1731864648380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/progetto_info_def$pulizia_df_AREU.coverage" NAME="pulizia_df_AREU Coverage Results" MODIFIED="1731579534919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/progetto_info_def$unione_df_ozono.coverage" NAME="unione_df_ozono Coverage Results" MODIFIED="1731685954832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$unione_df_temperature.coverage" NAME="unione_df_temperature Coverage Results" MODIFIED="1731677241583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$pulizia_df_AREU_1.coverage" NAME="pulizia_df_AREU_1 Coverage Results" MODIFIED="1731580782309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$adattamento_alle_griglie.coverage" NAME="adattamento alle griglie Coverage Results" MODIFIED="1732024317849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$dati_ozon.coverage" NAME="dati_ozon Coverage Results" MODIFIED="1731668248087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$bozza_adattamento_dati_AREU_griglie.coverage" NAME="bozza_adattamento_dati_AREU_griglie Coverage Results" MODIFIED="1732296093664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$Lettura_df_completo_CAMS_Temp.coverage" NAME="Lettura_df_completo_CAMS_Temp Coverage Results" MODIFIED="1731678591972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$df_CAMS_ozono.coverage" NAME="df_CAMS_ozono Coverage Results" MODIFIED="1731846044907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$prova_qgis_areu.coverage" NAME="prova_qgis_areu Coverage Results" MODIFIED="1731875628779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$df_AREU.coverage" NAME="df_AREU Coverage Results" MODIFIED="1731861264946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/progetto_info_def$prova_dati_AREU.coverage" NAME="prova_dati_AREU Coverage Results" MODIFIED="1731517573672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$unione_df_temperature.coverage" NAME="unione_df_temperature Coverage Results" MODIFIED="1731677241583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/progetto_info_def$conversione_csv.coverage" NAME="conversione_csv Coverage Results" MODIFIED="1731621889639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$visualizza_griglie.coverage" NAME="visualizza griglie Coverage Results" MODIFIED="1732025452448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$adattamento_dati_griglie.coverage" NAME="adattamento_dati_griglie Coverage Results" MODIFIED="1732469753374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$pulizia_df_AREU_1.coverage" NAME="pulizia_df_AREU_1 Coverage Results" MODIFIED="1731580782309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$dati_ozon.coverage" NAME="dati_ozon Coverage Results" MODIFIED="1731668248087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/progetto_info_def$lettura_df_temperature.coverage" NAME="lettura_df_temperature Coverage Results" MODIFIED="1731677111583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$Lettura_df_completo_CAMS_Temp.coverage" NAME="Lettura_df_completo_CAMS_Temp Coverage Results" MODIFIED="1731678591972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/progetto_info_def$analisi_dati_areu.coverage" NAME="analisi_dati_areu Coverage Results" MODIFIED="1731581452856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$conversione_coordinate.coverage" NAME="conversione_coordinate Coverage Results" MODIFIED="1731873529774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/progetto_info_def$pulizia_df_AREU_3.coverage" NAME="pulizia_df_AREU_3 Coverage Results" MODIFIED="1731787961149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/progetto_info_def$pulizia_df_temperatura.coverage" NAME="pulizia_df_temperatura Coverage Results" MODIFIED="1731667428073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$adattamento_dati_AREU_griglie.coverage" NAME="adattamento_dati_AREU_griglie Coverage Results" MODIFIED="1732283696454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/progetto_info_def$unione_df_AREU.coverage" NAME="unione_df_AREU Coverage Results" MODIFIED="1731789306788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/progetto_info_def$creazione_df_TEMPERATURA.coverage" NAME="creazione_df_TEMPERATURA Coverage Results" MODIFIED="1731676835107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
