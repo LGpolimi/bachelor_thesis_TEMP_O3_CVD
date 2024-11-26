@@ -21,8 +21,9 @@ output_path = r"C:\Users\bruno\OneDrive\Desktop\dati_elaborati\dati_CAMS_uniti_n
 
 #funzione per pre-elaborazione della colonna 'time'
 '''anche se i dati erano già stati salvati in formato datetime questi venivano gestiti scorrettamente dal codice
-venivano letti in formato errato '1970-01-01 00:00:00.020150101' - quindi estraggo solo gli ultimi 8 caratteri
-e li converto successivamente in formato datetime
+    - venivano letti in formato errato '1970-01-01 00:00:00.020150101' 
+    - estraggo solo gli ultimi 8 caratteri
+    - li converto successivamente in formato datetime
 '''
 
 def preprocess_time_column(df, time_column='time'):
