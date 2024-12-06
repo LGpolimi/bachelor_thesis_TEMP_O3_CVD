@@ -5,6 +5,8 @@ iniziamo a calcolare i picchi combinati
 
 si tiene conto di un delay che va da 0 a 4 giorni
 ripetiamo l'operazione per i picchi calcolati per ogni percentile
+
+salvo un file per ogni giorno di delay, con tutte le informazioni necessarie
 '''
 
 import os
@@ -25,9 +27,6 @@ cams_df["time"] = pd.to_datetime(cams_df["time"])  # Assicurarsi che il campo 't
 
 # DataFrame per contenere tutti i dati combinati
 all_combinations_df = pd.DataFrame()
-
-# Lista per il riepilogo delle combinazioni
-summary_combinations = []
 
 # Ciclo attraverso i percentili dal 90 al 99
 for percentile_areu in range(90, 100):
@@ -82,27 +81,23 @@ for percentile_areu in range(90, 100):
                 inplace=True
             )
 
-            all_combinations_df = pd.concat([all_combinations_df, combined_df], ignore_index=True)
+            # Salvo il DataFrame per il delay corrente
+            delay_output_file = os.path.join(output_path, f"Combinazioni_AREU_CAMS_delay_{delay}.csv")
+            combined_df.to_csv(delay_output_file, index=False)
 
-            # Aggiungere al riepilogo il numero di picchi per questa combinazione
-            summary_combinations.append({
+            print(f"File combinato salvato per il delay {delay}: {delay_output_file}")
+
+            # Riepilogo per questa combinazione
+            summary_combinations = [{
                 "percentile_AREU": percentile_areu,
                 "percentile_CAMS": percentile_cams,
                 "ritardo_giorni": delay,
                 "numero_picchi": len(combined_df)
-            })
+            }]
+            summary_df = pd.DataFrame(summary_combinations)
 
-# Salvo il DataFrame cumulativo in un unico file
-output_file = os.path.join(output_path, "Combinazioni_AREU_CAMS.csv")
-all_combinations_df.to_csv(output_file, index=False)
+            # Salvo il riepilogo per il delay corrente
+            summary_output_file = os.path.join(output_path, f"Riepilogo_combinazioni_percentili_delay_{delay}.csv")
+            summary_df.to_csv(summary_output_file, index=False)
 
-print(f"Tutte le combinazioni salvate in un unico file: {output_file}")
-
-# Creare un DataFrame per il riepilogo delle combinazioni
-summary_df = pd.DataFrame(summary_combinations)
-
-# Salvo il file di riepilogo
-summary_file = os.path.join(output_path, "Riepilogo_combinazioni_percentili.csv")
-summary_df.to_csv(summary_file, index=False)
-
-print(f"Riepilogo delle combinazioni di percentili salvato in: {summary_file}")
+            print(f"Riepilogo salvato per il delay {delay}: {summary_output_file}")
