@@ -3,8 +3,8 @@ iniziamo a calcolare i picchi combinati
     - picchi AREU calcolati dal 90esimo al 99esimo percentile con incremento di 1
     - picchi CAMS calcolati dal 90esimo al 99esimo percentile con incremento di 1
 
-iniziamo con un confronto tra i picchi con delay=0
-procederemo poi a gestire i vari delay
+si tiene conto di un delay che va da 0 a 4 giorni
+NOTA: la data salvata nel df finale coincide con la data di manifestazione del picco del dato sanitario
 
 ripetiamo l'operazione per i picchi calcolati per ogni percentile
 '''
