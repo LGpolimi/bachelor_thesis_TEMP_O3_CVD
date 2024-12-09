@@ -20,6 +20,7 @@ picchi_locali = []
 # Chiedo all'utente di specificare il percentile che vuole analizzare
 p = int(input("Inserisci il percentile (es. 90 per il 90° percentile): "))
 # Nel progetto si sono studiati i percentili dal 90° al 99°, procedendo con passo 1
+# Nel progetto si sono studiati i percentili dal 75° al 90°, procedendo con passo 5
 
 # Raggruppo i dati in base a 'id_cella', ovvero per zona della griglia
 for id_cella, zona_data in global_data.groupby('id_cella'):
