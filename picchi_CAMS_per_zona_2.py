@@ -1,3 +1,8 @@
+'''
+calcolo del totale dei picchi CAMS come nel file precedente
+suddivisi per anno dal 2015 al 2019
+'''
+
 import pandas as pd
 
 # Percorso del file di input
