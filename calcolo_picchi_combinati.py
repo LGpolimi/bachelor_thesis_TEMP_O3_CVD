@@ -14,11 +14,11 @@ import pandas as pd
 from datetime import timedelta
 
 # Percorsi di input dei dati
-input_AREU = r"C:\\Users\\bruno\\OneDrive\\Desktop\\dati_calcolo_picchi"
-input_CAMS = r"C:\\Users\\bruno\\OneDrive\\Desktop\\dati_calcolo_picchi\\picchi_CAMS.csv"
+input_AREU = r"C:\Users\bruno\OneDrive\Desktop\dati_calcolo_picchi\picchi_cams_areu_separati"
+input_CAMS = r"C:\Users\bruno\OneDrive\Desktop\Dati_corretti\5. calcolo_picchi_CAMS\picchi_per_percentile.csv"
 
 # Percorso output per il salvataggio dei dati
-output_path = r"C:\\Users\\bruno\\OneDrive\\Desktop\\dati_calcolo_picchi\\picchi_combinati"
+output_path = r"C:\Users\bruno\OneDrive\Desktop\Dati_corretti\6. picchi COMBINATI"
 os.makedirs(output_path, exist_ok=True)  # Creare la directory di output se non esiste
 
 # Carico il dataset CAMS

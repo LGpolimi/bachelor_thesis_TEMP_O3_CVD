@@ -1,7 +1,7 @@
-import geopandas as gpd
-import pandas as pd
-from shapely.geometry import Point
-import os
+                                                                            import geopandas as gpd
+                                                                            import pandas as pd
+                                                                            from shapely.geometry import Point
+                                                                            import os
 
 def processa_dati(input_csv, input_griglia, output_path, output_name, colonna_valore, colonna_tempo):
     """

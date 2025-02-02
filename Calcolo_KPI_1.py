@@ -8,18 +8,18 @@ calcolo dei KPI - questi verranno calcolati nel seguente modo:
 import pandas as pd
 
 # Percorsi di input
-input_CAMS = r"C:\Users\bruno\OneDrive\Desktop\dati_calcolo_kpi\totale_picchi_CAMS_per_zona.csv"
-input_picchi_combinati = r"C:\Users\bruno\OneDrive\Desktop\dati_calcolo_kpi\totale_picchi_combinati_per_zona.csv"
+input_CAMS = r"C:\Users\bruno\OneDrive\Desktop\Dati_corretti\7. Calcolo KPI\totale_picchi_CAMS_zona.csv"
+input_picchi_combinati = r"C:\Users\bruno\OneDrive\Desktop\Dati_corretti\7. Calcolo KPI\totale_picchi_COMBINATI_zona.csv"
 
 # Percorso di output
-output_CAMS = r"C:\Users\bruno\OneDrive\Desktop\dati_calcolo_kpi\KPI_2015_2019"
+output_CAMS = r"C:\Users\bruno\OneDrive\Desktop\Dati_corretti\7. Calcolo KPI\KPI_2015_2019"
 
 # Caricamento dei dati
 df_CAMS = pd.read_csv(input_CAMS)
 df_picchi_combinati = pd.read_csv(input_picchi_combinati)
 
 # Rinominare le colonne del dataset CAMS come da tua richiesta
-df_CAMS = df_CAMS.rename(columns={'percentile_CAMS': 'perc_CAMS', 'zona_geografica': 'ID_zona'})
+df_CAMS = df_CAMS.rename(columns={'percentile': 'perc_CAMS', 'LMB3A_IDcu': 'ID_zona'})
 
 # Verifica i nomi delle colonne
 print("Colonne di df_CAMS:", df_CAMS.columns)

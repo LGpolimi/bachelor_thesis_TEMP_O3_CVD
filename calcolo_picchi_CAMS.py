@@ -6,11 +6,11 @@ calcolati su tutte le griglie a partire dal 90esimo percentile con un incremento
 import pandas as pd
 
 #percorso del file di input
-input_path = r"C:\Users\bruno\OneDrive\Desktop\dati_elaborati\dati_CAMS_uniti_normalizzati\dati_uniti_normalizzati.csv"
+input_path = r"C:\Users\bruno\OneDrive\Desktop\Dati_corretti\4. dati_CAMS_uniti_normalizzati\output.csv"
 
 #percorso del file di output
-output_path_peaks = r"C:\Users\bruno\OneDrive\Desktop\dati_elaborati\picchi_per_percentile.csv"
-output_path_totals = r"C:\Users\bruno\OneDrive\Desktop\dati_elaborati\totali_picchi_per_percentile.csv"
+output_path_peaks = r"C:\Users\bruno\OneDrive\Desktop\Dati_corretti\5. calcolo_picchi_CAMS\picchi_per_percentile.csv"
+output_path_totals = r"C:\Users\bruno\OneDrive\Desktop\Dati_corretti\5. calcolo_picchi_CAMS\totali_picchi_per_percentile.csv"
 
 data = pd.read_csv(input_path)
 

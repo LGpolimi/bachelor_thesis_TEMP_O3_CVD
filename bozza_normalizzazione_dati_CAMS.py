@@ -15,9 +15,9 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 
 #percorsi dei file di input/output
-input_ozono = r"C:\Users\bruno\OneDrive\Desktop\dati_elaborati\dati_CAMS_griglie\dati_ozono_griglie.csv"
-input_temperature = r"C:\Users\bruno\OneDrive\Desktop\dati_elaborati\dati_CAMS_griglie\dati_temperatura_griglie.csv"
-output_path = r"C:\Users\bruno\OneDrive\Desktop\dati_elaborati\dati_CAMS_uniti_normalizzati"
+input_ozono = r"C:\Users\bruno\OneDrive\Desktop\Dati_corretti\3. dati_CAMS_sistemati\output_ozono.csv"
+input_temperature = r"C:\Users\bruno\OneDrive\Desktop\Dati_corretti\3. dati_CAMS_sistemati\output_temperatura.csv"
+output_path = r"C:\Users\bruno\OneDrive\Desktop\Dati_corretti\4. dati_CAMS_uniti_normalizzati"
 
 #funzione per pre-elaborazione della colonna 'time'
 '''anche se i dati erano già stati salvati in formato datetime questi venivano gestiti scorrettamente dal codice
