@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="305d609d-f559-45db-8339-230bc9276f6f" name="Changes" comment="calcolo_picchi_AREU.py">
+    <list default="true" id="305d609d-f559-45db-8339-230bc9276f6f" name="Changes" comment="codice per il calcolo ODDS RATIO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +37,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/LGpolimi/bachelor_thesis_TEMP_O3_CVD.git&quot;,
-    &quot;accountId&quot;: &quot;01da0a45-a2de-424f-a7b5-386fc2ed8aa5&quot;
+    &quot;accountId&quot;: &quot;67b654d5-32f4-441f-8905-2debff0664da&quot;
   }
 }</component>
   <component name="IlluminatedCloudWorkspaceSettings">
@@ -48,6 +48,7 @@
             <option name="savedDocuments">
               <list>
                 <AnonymousApexSavedDocument>
+                  <option name="body" value="fi" />
                   <option name="name" value="Anonymous Apex 1" />
                 </AnonymousApexSavedDocument>
               </list>
@@ -77,157 +78,104 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Lettura_df_completo_CAMS_Temp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.analisi_dati_areu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conversione_csv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.creazione_df_TEMPERATURA.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dati_ozon.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lettura_df_temperature.executor&quot;: &quot;Run&quot;,
-    &quot;Python.prova_dati_AREU.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pulizia_df_AREU.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pulizia_df_AREU_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pulizia_df_AREU_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pulizia_df_temperatura.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.unione_df_AREU.executor&quot;: &quot;Run&quot;,
-    &quot;Python.unione_df_ozono.executor&quot;: &quot;Run&quot;,
-    &quot;Python.unione_df_temperature.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bruno/PycharmProjects/progetto_info_def&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.10.1 picchi_combinati.executor": "Run",
+    "Python.10.10 picchi COMBINATI per zona.executor": "Run",
+    "Python.10.3 picchi_combinati_3.executor": "Run",
+    "Python.10.4 unione_picchi_combinati.executor": "Run",
+    "Python.10.5 totale_picchi_zona.executor": "Run",
+    "Python.10.6 totale_picchi_zona_2.executor": "Run",
+    "Python.10.7 totale_picchi_zona_anno.executor": "Run",
+    "Python.10.8 totale_picchi_CAMS_zona.executor": "Run",
+    "Python.10.9 picchi combinati.executor": "Run",
+    "Python.12.1 calcolo_KPI.executor": "Run",
+    "Python.12.2 calcolo_KPI_2.executor": "Run",
+    "Python.12.2 controllo_KPI.executor": "Run",
+    "Python.12.4 controllo_KPI_2.executor": "Run",
+    "Python.12.5 KPI_dati_AGGIORNATI.executor": "Run",
+    "Python.12.6 controllo KPI.executor": "Run",
+    "Python.12.7 ulteriore controllo KPI.executor": "Run",
+    "Python.13.1 grafico_kpi.executor": "Run",
+    "Python.13.2 grafico_picchi_CAMS.executor": "Run",
+    "Python.13.3 grafico_KPI_2.executor": "Run",
+    "Python.14.1 top_correlations.executor": "Run",
+    "Python.14.2 top_correlations_2.executor": "Run",
+    "Python.14.3 top_correlations_3.executor": "Run",
+    "Python.15.1 Grafico_KPI.executor": "Run",
+    "Python.16.1 adattamento_KPI_griglie.executor": "Run",
+    "Python.16.2 visualizza numero griglie.executor": "Run",
+    "Python.17.0 calcolo_ODDS_RATIO.executor": "Run",
+    "Python.17.1 preparazione file per oddsratio.executor": "Run",
+    "Python.17.2 preparazione file per oddsratio.executor": "Run",
+    "Python.17.3 totale casi sanitari per giorno.executor": "Run",
+    "Python.17.4 preparazione dataset areu.executor": "Run",
+    "Python.17.5 preparazione dati picchi sanitari.executor": "Run",
+    "Python.17.6 preparazione dati picchi combinati.executor": "Run",
+    "Python.17.7 preparazione dataset per ODDS.executor": "Run",
+    "Python.17.8 calcolo odds delay.executor": "Run",
+    "Python.17.9 preparazione dati picchi cams.executor": "Run",
+    "Python.7.1 unione CAMS.executor": "Run",
+    "Python.CONTROLLO KPI.executor": "Run",
+    "Python.CORREZIONE DATI CAMS 2.executor": "Run",
+    "Python.CORREZIONE DATI CAMS.executor": "Run",
+    "Python.CORREZIONE DATI COMBINATI.executor": "Run",
+    "Python.Calcolo_KPI_1.executor": "Run",
+    "Python.Calcolo_KPI_2.executor": "Run",
+    "Python.Lettura_df_completo_CAMS_Temp.executor": "Run",
+    "Python.adattamento_dati_CAMS_griglie.executor": "Run",
+    "Python.adattamento_dati_CAMS_griglie2.executor": "Run",
+    "Python.analisi_dati_areu.executor": "Run",
+    "Python.bozza_normalizzazione_dati_CAMS.executor": "Run",
+    "Python.calcolo_ODDS_RATIO.executor": "Run",
+    "Python.calcolo_picchi_CAMS.executor": "Run",
+    "Python.calcolo_picchi_combinati.executor": "Run",
+    "Python.conversione_csv.executor": "Run",
+    "Python.creazione_df_TEMPERATURA.executor": "Run",
+    "Python.dati_ozon.executor": "Run",
+    "Python.lettura_df_temperature.executor": "Run",
+    "Python.prova_dati_AREU.executor": "Run",
+    "Python.pulizia_df_AREU.executor": "Run",
+    "Python.pulizia_df_AREU_1.executor": "Run",
+    "Python.pulizia_df_AREU_3.executor": "Run",
+    "Python.pulizia_df_temperatura.executor": "Run",
+    "Python.scratch 2.executor": "Run",
+    "Python.scratch.executor": "Run",
+    "Python.unione_df_AREU.executor": "Run",
+    "Python.unione_df_ozono.executor": "Run",
+    "Python.unione_df_temperature.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/bruno/PycharmProjects/progetto_info_def",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bruno\PycharmProjects\progetto_info_def" />
+      <recent name="C:\Users\bruno\AppData\Roaming\JetBrains\PyCharm2024.2\scratches" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bruno\AppData\Roaming\JetBrains\PyCharm2024.2\scratches" />
       <recent name="C:\Users\bruno\PycharmProjects\progetto_info_def" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="progetto_info_def" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="progetto_info_def" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Docutils task">
-      <module name="progetto_info_def" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Sphinx task">
-      <module name="progetto_info_def" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Autodetect">
-      <module name="progetto_info_def" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="progetto_info_def" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
       </set>
     </attachedChunks>
   </component>
@@ -258,6 +206,74 @@
       <workItem from="1731780736334" duration="5000" />
       <workItem from="1731787104041" duration="2531000" />
       <workItem from="1731790573668" duration="374000" />
+      <workItem from="1733869988935" duration="111000" />
+      <workItem from="1733904464009" duration="2266000" />
+      <workItem from="1733907099300" duration="4907000" />
+      <workItem from="1733913337830" duration="105000" />
+      <workItem from="1733913584594" duration="143000" />
+      <workItem from="1733913745463" duration="110000" />
+      <workItem from="1733919866799" duration="5155000" />
+      <workItem from="1733936000148" duration="519000" />
+      <workItem from="1733936569423" duration="1178000" />
+      <workItem from="1734021857017" duration="967000" />
+      <workItem from="1734023012782" duration="298000" />
+      <workItem from="1734040893132" duration="1559000" />
+      <workItem from="1734093912007" duration="1550000" />
+      <workItem from="1734174621455" duration="218000" />
+      <workItem from="1734274524992" duration="1121000" />
+      <workItem from="1734277365740" duration="1420000" />
+      <workItem from="1734278870369" duration="32000" />
+      <workItem from="1734279172142" duration="204000" />
+      <workItem from="1734279595721" duration="3300000" />
+      <workItem from="1734298415995" duration="739000" />
+      <workItem from="1734339417729" duration="2119000" />
+      <workItem from="1737926294487" duration="79000" />
+      <workItem from="1737926431092" duration="43000" />
+      <workItem from="1737928824582" duration="133000" />
+      <workItem from="1737973584151" duration="6114000" />
+      <workItem from="1737997337754" duration="1666000" />
+      <workItem from="1738014346711" duration="1738000" />
+      <workItem from="1738016839276" duration="929000" />
+      <workItem from="1738060845743" duration="972000" />
+      <workItem from="1738063513104" duration="12382000" />
+      <workItem from="1738097641093" duration="1149000" />
+      <workItem from="1738098884932" duration="5024000" />
+      <workItem from="1738104484973" duration="174000" />
+      <workItem from="1738146268695" duration="3596000" />
+      <workItem from="1738152299743" duration="1041000" />
+      <workItem from="1738167401427" duration="4026000" />
+      <workItem from="1738185714949" duration="4776000" />
+      <workItem from="1738190841260" duration="640000" />
+      <workItem from="1738234701427" duration="514000" />
+      <workItem from="1738235313447" duration="280000" />
+      <workItem from="1738235798345" duration="47000" />
+      <workItem from="1738242400272" duration="64000" />
+      <workItem from="1738242724955" duration="863000" />
+      <workItem from="1738247172273" duration="1870000" />
+      <workItem from="1738249472293" duration="34000" />
+      <workItem from="1738249978950" duration="51000" />
+      <workItem from="1738250151891" duration="586000" />
+      <workItem from="1738250801797" duration="1228000" />
+      <workItem from="1738274022471" duration="2861000" />
+      <workItem from="1738325737887" duration="169000" />
+      <workItem from="1738326325103" duration="7644000" />
+      <workItem from="1738527175521" duration="237000" />
+      <workItem from="1738594370873" duration="4388000" />
+      <workItem from="1738604195476" duration="121000" />
+      <workItem from="1738622951604" duration="2837000" />
+      <workItem from="1738625971652" duration="469000" />
+      <workItem from="1738668017246" duration="2031000" />
+      <workItem from="1738670328012" duration="118000" />
+      <workItem from="1738680812003" duration="849000" />
+      <workItem from="1738681937132" duration="636000" />
+      <workItem from="1738688732590" duration="616000" />
+      <workItem from="1738689365967" duration="1743000" />
+      <workItem from="1738691169177" duration="611000" />
+      <workItem from="1738696911569" duration="406000" />
+      <workItem from="1738697337182" duration="214000" />
+      <workItem from="1738697589613" duration="314000" />
+      <workItem from="1738697919784" duration="796000" />
+      <workItem from="1738705484757" duration="1615000" />
     </task>
     <task id="LOCAL-00001" summary="prova">
       <option name="closed" value="true" />
@@ -291,7 +307,79 @@
       <option name="project" value="LOCAL" />
       <updated>1733336242748</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="calcolo del totale dei picchi zona per zona, percentile per percentile">
+      <option name="closed" value="true" />
+      <created>1733869826988</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733869826988</updated>
+    </task>
+    <task id="LOCAL-00006" summary="calcolo dei KPI sull'arco temporale 2015-2019">
+      <option name="closed" value="true" />
+      <created>1733913425160</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733913425160</updated>
+    </task>
+    <task id="LOCAL-00007" summary="calcolo totale picchi CAMS divisi anno per anno">
+      <option name="closed" value="true" />
+      <created>1733920478351</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733920478351</updated>
+    </task>
+    <task id="LOCAL-00008" summary="calcolo totale picchi CAMS divisi anno per anno">
+      <option name="closed" value="true" />
+      <created>1733920568304</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733920568304</updated>
+    </task>
+    <task id="LOCAL-00009" summary="calcolo dei KPI divisi anno per anno">
+      <option name="closed" value="true" />
+      <created>1733933737903</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733933737903</updated>
+    </task>
+    <task id="LOCAL-00010" summary="calcolo dei KPI divisi anno per anno">
+      <option name="closed" value="true" />
+      <created>1733935871705</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733935871705</updated>
+    </task>
+    <task id="LOCAL-00011" summary="modifiche varie + codice calcolo ODDS RATIO">
+      <option name="closed" value="true" />
+      <created>1738527388603</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738527388603</updated>
+    </task>
+    <task id="LOCAL-00012" summary="codice per il calcolo ODDS RATIO">
+      <option name="closed" value="true" />
+      <created>1738697039261</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1738697039261</updated>
+    </task>
+    <task id="LOCAL-00013" summary="codice per il calcolo ODDS RATIO">
+      <option name="closed" value="true" />
+      <created>1738698389318</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738698389318</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,21 +413,97 @@
     <MESSAGE value="codici per analisi preliminare e pulizia dei dati AREU" />
     <MESSAGE value="picchi_AREU.py" />
     <MESSAGE value="calcolo_picchi_AREU.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="calcolo_picchi_AREU.py" />
+    <MESSAGE value="calcolo del totale dei picchi zona per zona, percentile per percentile" />
+    <MESSAGE value="calcolo dei KPI sull'arco temporale 2015-2019" />
+    <MESSAGE value="calcolo totale picchi CAMS divisi anno per anno" />
+    <MESSAGE value="calcolo dei KPI divisi anno per anno" />
+    <MESSAGE value="modifiche varie + codice calcolo ODDS RATIO" />
+    <MESSAGE value="codice per il calcolo ODDS RATIO" />
+    <option name="LAST_COMMIT_MESSAGE" value="codice per il calcolo ODDS RATIO" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/picchi_CAMS_per_zona_2.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/progetto_info_def$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1731686308768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$CONTROLLO_KPI.coverage" NAME="CONTROLLO KPI Coverage Results" MODIFIED="1738681971160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$17_6_preparazione_dati_picchi_combinati.coverage" NAME="17.6 preparazione dati picchi combinati Coverage Results" MODIFIED="1738690313239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$unione_df_temperature.coverage" NAME="unione_df_temperature Coverage Results" MODIFIED="1731677241583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$CORREZIONE_DATI_COMBINATI.coverage" NAME="CORREZIONE DATI COMBINATI Coverage Results" MODIFIED="1738251784890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches/DATI TESI" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$17_3_totale_casi_sanitari_per_giorno.coverage" NAME="17.3 totale casi sanitari per giorno Coverage Results" MODIFIED="1738331374201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$pulizia_df_AREU_1.coverage" NAME="pulizia_df_AREU_1 Coverage Results" MODIFIED="1731580782309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$17_0_calcolo_ODDS_RATIO.coverage" NAME="17.0 calcolo_ODDS_RATIO Coverage Results" MODIFIED="1738670426741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$10_5_totale_picchi_zona.coverage" NAME="10.5 totale_picchi_zona Coverage Results" MODIFIED="1738188103334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$12_4_controllo_KPI_2.coverage" NAME="12.4 controllo_KPI_2 Coverage Results" MODIFIED="1733937762002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$10_8_totale_picchi_CAMS_zona.coverage" NAME="10.8 totale_picchi_CAMS_zona Coverage Results" MODIFIED="1738171242818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$adattamento_dati_CAMS_griglie.coverage" NAME="adattamento_dati_CAMS_griglie Coverage Results" MODIFIED="1737996245997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$10_10_picchi_COMBINATI_per_zona.coverage" NAME="10.10 picchi COMBINATI per zona Coverage Results" MODIFIED="1738189429485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$17_4_preparazione_dataset_areu.coverage" NAME="17.4 preparazione dataset areu Coverage Results" MODIFIED="1738625267416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$calcolo_picchi_CAMS.coverage" NAME="calcolo_picchi_CAMS Coverage Results" MODIFIED="1738152422170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$prova_dati_AREU.coverage" NAME="prova_dati_AREU Coverage Results" MODIFIED="1731517573672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$12_7_ulteriore_controllo_KPI.coverage" NAME="12.7 ulteriore controllo KPI Coverage Results" MODIFIED="1738250721295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches/DATI TESI" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$conversione_csv.coverage" NAME="conversione_csv Coverage Results" MODIFIED="1731621889639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$10_1_picchi_combinati.coverage" NAME="10.1 picchi_combinati Coverage Results" MODIFIED="1738167532503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$16_2_visualizza_numero_griglie.coverage" NAME="16.2 visualizza numero griglie Coverage Results" MODIFIED="1738251325102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches/DATI TESI" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$12_2_calcolo_KPI_2.coverage" NAME="12.2 calcolo_KPI_2 Coverage Results" MODIFIED="1733933545240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$13_2_grafico_picchi_CAMS.coverage" NAME="13.2 grafico_picchi_CAMS Coverage Results" MODIFIED="1734281042696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$10_6_totale_picchi_zona_2.coverage" NAME="10.6 totale_picchi_zona_2 Coverage Results" MODIFIED="1738170156732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$lettura_df_temperature.coverage" NAME="lettura_df_temperature Coverage Results" MODIFIED="1731677111583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$analisi_dati_areu.coverage" NAME="analisi_dati_areu Coverage Results" MODIFIED="1731581452856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$10_9_picchi_combinati.coverage" NAME="10.9 picchi combinati Coverage Results" MODIFIED="1738187549223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$16_1_adattamento_KPI_griglie.coverage" NAME="16.1 adattamento_KPI_griglie Coverage Results" MODIFIED="1738251842361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches/DATI TESI" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$14_1_top_correlations.coverage" NAME="14.1 top_correlations Coverage Results" MODIFIED="1734278359689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$17_7_preparazione_dataset_per_ODDS.coverage" NAME="17.7 preparazione dataset per ODDS Coverage Results" MODIFIED="1738691763863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1738146341698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$12_5_KPI_dati_AGGIORNATI.coverage" NAME="12.5 KPI_dati_AGGIORNATI Coverage Results" MODIFIED="1738190071436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/progetto_info_def$pulizia_df_AREU.coverage" NAME="pulizia_df_AREU Coverage Results" MODIFIED="1731579534919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/progetto_info_def$unione_df_ozono.coverage" NAME="unione_df_ozono Coverage Results" MODIFIED="1731685954832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$prova_dati_AREU.coverage" NAME="prova_dati_AREU Coverage Results" MODIFIED="1731517573672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$unione_df_temperature.coverage" NAME="unione_df_temperature Coverage Results" MODIFIED="1731677241583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$conversione_csv.coverage" NAME="conversione_csv Coverage Results" MODIFIED="1731621889639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$pulizia_df_AREU_1.coverage" NAME="pulizia_df_AREU_1 Coverage Results" MODIFIED="1731580782309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$15_1_Grafico_KPI.coverage" NAME="15.1 Grafico_KPI Coverage Results" MODIFIED="1738680859717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches/DATI TESI" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$calcolo_ODDS_RATIO.coverage" NAME="calcolo_ODDS_RATIO Coverage Results" MODIFIED="1738698344249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$12_1_calcolo_KPI.coverage" NAME="12.1 calcolo_KPI Coverage Results" MODIFIED="1733912952696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$CORREZIONE_DATI_CAMS_2.coverage" NAME="CORREZIONE DATI CAMS 2 Coverage Results" MODIFIED="1738016645331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$14_3_top_correlations_3.coverage" NAME="14.3 top_correlations_3 Coverage Results" MODIFIED="1738680837746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches/DATI TESI" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$10_4_unione_picchi_combinati.coverage" NAME="10.4 unione_picchi_combinati Coverage Results" MODIFIED="1738168721643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$17_8_calcolo_odds_delay.coverage" NAME="17.8 calcolo odds delay Coverage Results" MODIFIED="1738698079621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$10_7_totale_picchi_zona_anno.coverage" NAME="10.7 totale_picchi_zona_anno Coverage Results" MODIFIED="1738188007223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$13_3_grafico_KPI_2.coverage" NAME="13.3 grafico_KPI_2 Coverage Results" MODIFIED="1734296719475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$14_2_top_correlations_2.coverage" NAME="14.2 top_correlations_2 Coverage Results" MODIFIED="1734278574488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/progetto_info_def$dati_ozon.coverage" NAME="dati_ozon Coverage Results" MODIFIED="1731668248087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$lettura_df_temperature.coverage" NAME="lettura_df_temperature Coverage Results" MODIFIED="1731677111583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/progetto_info_def$Lettura_df_completo_CAMS_Temp.coverage" NAME="Lettura_df_completo_CAMS_Temp Coverage Results" MODIFIED="1731678591972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/progetto_info_def$analisi_dati_areu.coverage" NAME="analisi_dati_areu Coverage Results" MODIFIED="1731581452856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$scratch_2.coverage" NAME="scratch 2 Coverage Results" MODIFIED="1738152215925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$bozza_normalizzazione_dati_CAMS.coverage" NAME="bozza_normalizzazione_dati_CAMS Coverage Results" MODIFIED="1738100938009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$10_3_picchi_combinati_3.coverage" NAME="10.3 picchi_combinati_3 Coverage Results" MODIFIED="1738167769857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$Calcolo_KPI_2.coverage" NAME="Calcolo_KPI_2 Coverage Results" MODIFIED="1733935689188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$adattamento_dati_CAMS_griglie2.coverage" NAME="adattamento_dati_CAMS_griglie2 Coverage Results" MODIFIED="1738014356421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$Calcolo_KPI_1.coverage" NAME="Calcolo_KPI_1 Coverage Results" MODIFIED="1738189591048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$12_2_controllo_KPI.coverage" NAME="12.2 controllo_KPI Coverage Results" MODIFIED="1733913796568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$17_5_preparazione_dati_picchi_sanitari.coverage" NAME="17.5 preparazione dati picchi sanitari Coverage Results" MODIFIED="1738689251283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$7_1_unione_CAMS.coverage" NAME="7.1 unione CAMS Coverage Results" MODIFIED="1738078694346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$12_6_controllo_KPI.coverage" NAME="12.6 controllo KPI Coverage Results" MODIFIED="1738250564291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches/DATI TESI" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$17_2_preparazione_file_per_oddsratio.coverage" NAME="17.2 preparazione file per oddsratio Coverage Results" MODIFIED="1738330824588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$17_1_preparazione_file_per_oddsratio.coverage" NAME="17.1 preparazione file per oddsratio Coverage Results" MODIFIED="1738330213605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$CORREZIONE_DATI_CAMS.coverage" NAME="CORREZIONE DATI CAMS Coverage Results" MODIFIED="1738251427488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches/DATI TESI" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$13_1_grafico_kpi.coverage" NAME="13.1 grafico_kpi Coverage Results" MODIFIED="1734296631749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$17_9_preparazione_dati_picchi_cams.coverage" NAME="17.9 preparazione dati picchi cams Coverage Results" MODIFIED="1738707725154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches/scratch temperature" />
     <SUITE FILE_PATH="coverage/progetto_info_def$pulizia_df_AREU_3.coverage" NAME="pulizia_df_AREU_3 Coverage Results" MODIFIED="1731787961149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/progetto_info_def$calcolo_picchi_combinati.coverage" NAME="calcolo_picchi_combinati Coverage Results" MODIFIED="1738153145534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/progetto_info_def$pulizia_df_temperatura.coverage" NAME="pulizia_df_temperatura Coverage Results" MODIFIED="1731667428073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/progetto_info_def$unione_df_AREU.coverage" NAME="unione_df_AREU Coverage Results" MODIFIED="1731789306788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/progetto_info_def$creazione_df_TEMPERATURA.coverage" NAME="creazione_df_TEMPERATURA Coverage Results" MODIFIED="1731676835107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
